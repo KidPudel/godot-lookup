@@ -13,3 +13,6 @@ $MainTheme.connect("finished", Callable(self, "_on_MainTheme_finished"))
 $ButtonSound.play(0)
 ```
 
+```gdscript
+@onready var player_animation : AnimatedSprite2D = $PlayerAnimation
+```
